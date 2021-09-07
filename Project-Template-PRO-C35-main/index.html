@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    
+    <script>
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAkB-3AZdMCADRwjDm79PSK6Q5y6UwPgzg",
+        authDomain: "hot-air-balloon-ride-5f796.firebaseapp.com",
+        databaseURL: "https://hot-air-balloon-ride-5f796-default-rtdb.firebaseio.com",
+        projectId: "hot-air-balloon-ride-5f796",
+        storageBucket: "hot-air-balloon-ride-5f796.appspot.com",
+        messagingSenderId: "913302680287",
+        appId: "1:913302680287:web:b3aee13cd7223f566c6f6a"
+      };
+    
+      // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
